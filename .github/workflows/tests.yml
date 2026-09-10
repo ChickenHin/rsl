@@ -1,11 +1,11 @@
 name: Run tests
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, reopened]
+  # push:
+  #   branches:
+  #     - master
+  # pull_request:
+  #   types: [opened, reopened]
   workflow_dispatch:
 
 jobs:
